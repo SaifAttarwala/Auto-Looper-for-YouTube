@@ -1,3 +1,8 @@
+// This will make it work on Chrome
+if (typeof browser === "undefined") {
+    var browser = chrome;
+}
+
 // Find checkbox from popup.html
 const checkbox = document.getElementById("playlistToggle");
 
