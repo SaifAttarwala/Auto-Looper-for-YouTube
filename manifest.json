@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Auto-Looper for YouTube",
+  "version": "1.1",
+  "description": "Automatically loops YouTube videos. Use the playlist toggle to control looping in playlists. Does not work with YouTube Music. This extension is hosted",
+  "developer": {
+    "name": "Saif Attarwala",
+    "url": "https://github.com/SaifAttarwala"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.youtube.com/watch*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Auto Loop Settings"
+  },
+  "permissions": ["storage"],
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

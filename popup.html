@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Auto Loop Settings</title>
+<style>
+    /* Google Fonts: Inter for modern look */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+    body {
+        font-family: 'Inter', sans-serif;
+        background: #1e1e2f; /* dark background */
+        color: #ffffff;
+        width: 270px;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    img.icon {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 10px;
+    }
+
+    h1.title {
+        font-size: 16px;
+        font-weight: 600;
+        color: #4CAF50; /* bright modern green */
+        margin: 5px 0;
+    }
+
+    p.author {
+        font-size: 12px;
+        color: #4CAF50; /* same color as title */
+        margin-bottom: 20px;
+    }
+
+    /* Modern toggle switch */
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 50px;
+      height: 28px;
+    }
+
+    .switch input { 
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #888;
+      transition: 0.4s;
+      border-radius: 28px;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 22px;
+      width: 22px;
+      left: 3px;
+      bottom: 3px;
+      background-color: white;
+      transition: 0.4s;
+      border-radius: 50%;
+    }
+
+    input:checked + .slider {
+      background-color: #4CAF50;
+    }
+
+    input:checked + .slider:before {
+      transform: translateX(22px);
+    }
+
+    /* Hover effect */
+    .switch:hover .slider {
+        background-color: #6fcf70;
+    }
+
+    .toggle-label {
+        font-size: 14px;
+        margin-left: 10px;
+        vertical-align: middle;
+        cursor: pointer;
+        color: #ffffff;
+    }
+
+    .toggle-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+</style>
+</head>
+<body>
+
+    <!-- Icon -->
+    <img src="icon48.png" alt="Auto-Looper Icon" class="icon">
+
+    <!-- Title -->
+    <h1 class="title">Auto-Looper for YouTube</h1>
+
+    <!-- Author -->
+    <p class="author">by Saif Attarwala</p>
+
+    <!-- Playlist toggle -->
+    <div class="toggle-container">
+        <label class="switch">
+            <input type="checkbox" id="playlistToggle">
+            <span class="slider"></span>
+        </label>
+        <span class="toggle-label">Loop playlists</span>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
