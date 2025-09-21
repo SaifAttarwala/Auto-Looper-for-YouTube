@@ -7,6 +7,12 @@
     "name": "Saif Attarwala",
     "url": "https://github.com/SaifAttarwala"
   },
+  "browser_specific_settings": {
+  "gecko": {
+    "id": "autolooper@saifattarwala",
+    "strict_min_version": "109.0"
+  }
+},
   "content_scripts": [
     {
       "matches": [
