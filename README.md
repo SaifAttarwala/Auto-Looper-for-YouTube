@@ -22,7 +22,7 @@ Automatically loops YouTube videos in your browser. Use the **playlist toggle** 
 ## Usage
 1. Click the extension icon to open the popup.
 2. Toggle the playlist option to enable or disable looping for playlist videos.
-3. Open a YouTube video — it will automatically loop based on your settings.
+3. Open a YouTube video and it will automatically loop in a couple of seconds respecting your preferences.
 
 ---
 
