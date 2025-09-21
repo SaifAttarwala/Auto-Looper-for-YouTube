@@ -54,7 +54,7 @@
 ## 🚀 Usage
 1. Click the extension icon to open the popup.  
 2. Toggle the playlist option to enable or disable looping for playlist videos.  
-3. Open a YouTube video — it will automatically loop after a couple of seconds, respecting your preferences.  
+3. Open a YouTube video, it will automatically loop after a couple of seconds, respecting your preferences.  
 
 ---
 
