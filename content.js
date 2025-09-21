@@ -1,3 +1,8 @@
+// This will make it work on Chrome
+if (typeof browser === "undefined") {
+    var browser = chrome;
+}
+
 // This will fetch a value from popup.js line 2
 const STORAGE_KEY = "loopInPlaylist";
 
