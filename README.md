@@ -38,12 +38,15 @@
 ## 🛠️ Installation
 
 ### Firefox (Recommended)
+1. Install on the addon from Mozilla: https://addons.mozilla.org/en-US/firefox/addon/auto-looper-for-youtube/
+
+### Firefox (Manual)
 1. Open Firefox and go to `about:debugging#/runtime/this-firefox`.  
 2. Click **Load Temporary Add-on**.  
 3. Select the `manifest.json` file from this repository.  
 4. The extension icon will appear in the toolbar.  
 
-### Chrome (Optional)
+### Chrome (Manual)
 1. Open Chrome and navigate to `chrome://extensions/`.  
 2. Enable **Developer mode** (toggle in top-right).  
 3. Click **Load unpacked** and select the extension folder.  
