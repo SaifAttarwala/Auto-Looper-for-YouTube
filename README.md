@@ -2,9 +2,10 @@
   <img src="icon48.png" alt="Auto-Looper Logo" width="96" height="96">
 </p>
 
-<h1 align="center">Auto-Looper for YouTube</h1>
+<h1 align="center">[DEPRECIATED] Auto-Looper for YouTube</h1>
 
 <p align="center">
+  <b>NOTICE: Project has been depreciated due failure optaining favorable performance.</b><br>
   <b>Automatically loops YouTube videos in your browser</b><br>
   Use the <b>playlist toggle</b> to control whether videos in playlists are looped.
 </p>
